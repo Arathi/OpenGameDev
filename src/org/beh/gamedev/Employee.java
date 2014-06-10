@@ -11,16 +11,17 @@ public class Employee {
 	public static final int JOBTITLE_HACK = 7;
 	
 	public static final int PROPERTY_PROGRAM = 0;
-	public static final int PROPERTY_CREATION = 1;
-	public static final int PROPERTY_DESIGN = 2;
+	public static final int PROPERTY_SCENARIO = 1;
+	public static final int PROPERTY_GRAPHICS = 2;
 	public static final int PROPERTY_SOUND = 3;
 	
 	String name;
 	int job; //当前职称
 	int[] propertys; //4项基本属性
 	int[] skillLevels; //职业技能级别
-	int health;
-	int healthMax; 
+	int power;
+	int powerMax; 
+	int salary; //薪水
 	
 	@Deprecated
 	public Employee(){
@@ -34,6 +35,6 @@ public class Employee {
 		this.job = job;
 		this.propertys = propertys;
 		this.skillLevels = skillLevels;
-		this.health = this.healthMax = health;
+		this.power = this.powerMax = health;
 	}
 }

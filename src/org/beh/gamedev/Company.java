@@ -11,4 +11,5 @@ public class Company {
 	int capital; //资本
 	int level; //规模 4/6/8 -> 4/6/8/12/16
 	int knowledge; //累计知识
+	int settleMethod; //结算方式(月付/年付)
 }
