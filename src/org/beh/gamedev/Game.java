@@ -36,7 +36,7 @@ public class Game {
 	int cost; //成本
 	
 	protected Game(){
-		
+		init();
 	}
 	
 	protected void init(){
